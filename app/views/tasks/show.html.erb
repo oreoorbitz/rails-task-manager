@@ -1,0 +1,8 @@
+<p> <%= @task.details %></p>
+<br>
+<form action="">
+  <input type="checkbox" name="task" value="task"> This task is completed<br>
+</form>
+<br>
+<%= link_to "back to tasks", tasks_path %>
+<%= link_to "edit this task", edit_task_path %>
